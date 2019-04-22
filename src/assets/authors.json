@@ -1,0 +1,45 @@
+[
+  {
+    "id": 1,
+    "name": "Максим Марченко",
+    "description": "КАК ЖЕ ОН ХАРОШ",
+    "image": "img/authors/max.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Саня Печенько",
+    "description": "Любит покушать",
+    "image": "img/authors/sanya.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Дмитрий Агеев",
+    "description": "Можно договориться за бутылку",
+    "image": "img/authors/dimon.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Максим Гвоздев",
+    "description": "Любит натирать пробирки",
+    "image": "img/authors/gvozdev.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Влад Роговский",
+    "description": "Шарит в айонике",
+    "image": "img/authors/vlad.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Ариска Карманова",
+    "description": "Специалист по ноготочкам",
+    "image": "img/authors/ariska.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Диана Корнеенко",
+    "description": "Любит котиков",
+    "image": "img/authors/diana.jpg"
+  }
+]
+

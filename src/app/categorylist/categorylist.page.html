@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar>
+    <div style="text-align: center; color: dodgerblue;"><ion-title>Категории</ion-title></div>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+      <ion-item *ngFor="let item of items; let i = index">
+        <ion-avatar item-left>
+          <img src="../../assets/{{item.image}}" alt="{{item.id}}">
+        </ion-avatar>
+        <ion-label style="margin-left: 3%;"><h2 style="color: gray()">{{item.category}}</h2></ion-label>
+        <ion-button routerLink="/tabs/postlist" (click)="onGoToNextPage(i)">posts</ion-button>
+      </ion-item>
+  </ion-list>
+</ion-content>

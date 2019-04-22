@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar>
+    <div style="text-align: center; color: dodgerblue;"><ion-title>Авторы</ion-title></div>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-list>
+    <ion-item-sliding *ngFor="let item of items; let i = index">
+      <ion-item>
+        <ion-avatar item-left>
+         <img src="../../assets/{{item.image}}" alt="{{item.id}}">
+        </ion-avatar>
+        <ion-label style="margin-left: 3%;"><h3>{{item.name}}</h3><p>{{item.description}}</p></ion-label>
+        <ion-button routerLink="/tabs/postlist" (click)="onGoToNextPage(i)">posts</ion-button>
+      </ion-item>
+      <ion-item-options side="start" (ionSwipe)="delete(i)">
+        <ion-item-option color="danger" (click)="delete(i)" expandable>
+          <ion-icon name="close"></ion-icon>
+        </ion-item-option>
+      </ion-item-options>
+    </ion-item-sliding>
+  </ion-list>
+  <ion-button (click)="loadData()">Загрузить</ion-button>
+  <ion-button (click)="saveData()"><ion-icon name="save"></ion-icon></ion-button>
+  <ion-button (click)="getData()"><ion-icon name="undo"></ion-icon></ion-button>
+</ion-content>

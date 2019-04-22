@@ -1,0 +1,42 @@
+  .postlist-title {
+    font-size: 18px !important;
+    color: dodgerblue;
+    text-align: center;
+    white-space: inherit;
+  }
+
+  .postlist-text {
+    font-size: 14px !important;
+    color: lightslategrey;
+    text-align: center;
+    white-space: inherit;
+  }
+
+  .postlist-date {
+    font-size: 12px !important;
+    color: lightslategrey;
+    white-space: inherit;
+    float: right;
+    text-align: right;
+    width: 50%;
+  }
+
+  .postlist-category {
+    font-size: 12px !important;
+    color: lightslategrey;
+    white-space: inherit;
+    float: left;
+    width: 50%;
+  }
+  .postlist-name {
+    font-size: 12px !important;
+    color: lightskyblue;
+    white-space: inherit;
+    text-align: center;
+    width: 100%;
+  }
+
+  .info {
+    display: flex;
+    margin: 2%;
+  }

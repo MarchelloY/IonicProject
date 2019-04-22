@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "category": "Происшествия",
+    "image": "img/color/red.jpg"
+  },
+  {
+    "id": 2,
+    "category": "Политика",
+    "image": "img/color/blue.jpg"
+  },
+  {
+    "id": 3,
+    "category": "Гороскопы",
+    "image": "img/color/yellow.jpg"
+  },
+  {
+    "id": 4,
+    "category": "Общество",
+    "image": "img/color/green.jpg"
+  },
+  {
+    "id": 5,
+    "category": "Технологии",
+    "image": "img/color/purple.jpg"
+  }
+]

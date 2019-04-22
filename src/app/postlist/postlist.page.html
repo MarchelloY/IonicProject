@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-toolbar>
+    <div style="text-align: center; color: dodgerblue;"><ion-title>{{title}}</ion-title></div>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card *ngFor="let item of items">
+    <img src="../../assets/{{item.image}}" alt="{{item.id}}"/>
+    <div class="info">
+      <div class="postlist-category">Категория: {{item.category}}</div>
+      <div class="postlist-date">Дата публикации: {{item.date}}</div>
+    </div>
+    <ion-card-title class="postlist-title">{{item.title}}</ion-card-title>
+    <h5 class="postlist-text">{{item.text}}</h5>
+    <h6 class="postlist-name">Автор: {{item.author}}</h6>
+  </ion-card>
+</ion-content>
